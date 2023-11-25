@@ -2,6 +2,7 @@ export function Footer() {
     return (
         <>
             <footer className="footer">
+                <div className="footer__content">
                 <h2 className="footer__title">Contato</h2>
                 <ul className="footer__list">
                     <li className="list__item">
@@ -14,7 +15,8 @@ export function Footer() {
                         <img src="./src/assets/github-icon.png" />
                     </li>
                 </ul>
-                <p>Todos os direitos reservados - José da Silva</p>
+                </div>
+                <p className="footer__text">Todos os direitos reservados - José da Silva</p>
             </footer>
         </>
     )

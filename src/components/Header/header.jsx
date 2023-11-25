@@ -2,7 +2,9 @@ export function Header() {
     return (
         <>
             <header className="header__container">
+                <div className="header-img__container">
                 <img src="./src/assets/portfolio.png" alt="Logo do portfólio" />
+                </div>
                 <ul className="header__links">
                     <li className="links__item">
                         <a href="#" className="header__link">Sobre</a>

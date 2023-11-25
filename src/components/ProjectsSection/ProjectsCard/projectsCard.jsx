@@ -6,7 +6,10 @@ export function ProjectsCard({ project }) {
                 <p className="project-list__text">{project.description}</p>
                 <a className="project-list__link" href="#">Saiba mais</a>
             </div>
-            <img src="./src/assets/git-icon.png"/>
+            <div className="project__img">
+                <img src="./src/assets/git-icon.png"/>
+            </div>
+            
         </li>
     )
 }

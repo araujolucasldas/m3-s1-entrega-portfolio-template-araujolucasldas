@@ -4,7 +4,7 @@ import { AboutMeSection } from "./components/AboutMeSection/about.jsx"
 import { TechSection } from "./components/TechSection/tech.jsx"
 import { ProjectsSection } from "./components/ProjectsSection/projects.jsx"
 import { Footer } from "./components/Footer/footer.jsx"
-import "./styles/reset.css"
+import "./styles/index.css"
 
 function App() {
 
