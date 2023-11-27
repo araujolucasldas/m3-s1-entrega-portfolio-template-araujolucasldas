@@ -1,0 +1,12 @@
+.tech__container{
+    margin-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.tech__list{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}

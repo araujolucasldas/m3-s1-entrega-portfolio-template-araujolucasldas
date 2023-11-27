@@ -1,0 +1,10 @@
+.techList__item{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.50);
+    border-radius: var(--radius-2);
+    padding: 1.5rem;
+    width: 25%;
+}

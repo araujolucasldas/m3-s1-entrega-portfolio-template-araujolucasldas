@@ -1,11 +1,13 @@
+import style from "./header.module.css"
+import logo from "../../assets/portfolio.png";
 export function Header() {
     return (
         <>
-            <header className="header__container">
+            <header className={style.header__container}>
                 <div className="header-img__container">
-                <img src="./src/assets/portfolio.png" alt="Logo do portfólio" />
+                <img src={logo} alt="Logo do portfólio" />
                 </div>
-                <ul className="header__links">
+                <ul className={style.header__links}>
                     <li className="links__item">
                         <a href="#" className="header__link">Sobre</a>
                     </li>

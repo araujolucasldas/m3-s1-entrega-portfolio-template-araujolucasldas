@@ -1,0 +1,16 @@
+.projectList__item{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.50);
+    border-radius: var(--radius-2);
+    padding: 1.5rem;
+    width: 42%;
+}
+
+.projectList__content{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
